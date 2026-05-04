@@ -5,7 +5,7 @@ include '../config/database.php';
 
 $id = $_GET['id'];
 $uid = $_SESSION['user_id'];
-$pesanan = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM pesanan WHERE id=$id AND user_id=$uid"));
+$pesanan = mysqli_fetch_assoc(mysqli_query($conn, "SELECT p.*, u.nama, u.no_hp, u.alamat FROM pesanan p JOIN users u ON p.user_id=u.id WHERE p.id=$id AND p.user_id=$uid"));
 if (!$pesanan) die("Pesanan tidak ditemukan.");
 
 $detail = mysqli_query($conn, "SELECT d.*, p.nama_produk FROM detail_pesanan d JOIN produk p ON d.produk_id=p.id WHERE d.pesanan_id=$id");
@@ -23,6 +23,12 @@ $detail = mysqli_query($conn, "SELECT d.*, p.nama_produk FROM detail_pesanan d J
     <?php include 'navbar_customer.php'; ?>
     <div class="container mt-4">
         <h2>Detail Pesanan #<?= $id ?></h2>
+        <div class="mb-3">
+            <strong>Detail Pengiriman:</strong><br>
+            Nama: <?= htmlspecialchars($pesanan['nama']) ?><br>
+            No HP: <?= htmlspecialchars($pesanan['no_hp']) ?><br>
+            Alamat: <?= nl2br(htmlspecialchars($pesanan['alamat'])) ?>
+        </div>
         <p>Total: Rp <?= number_format($pesanan['total_harga'], 0, ',', '.') ?> | Metode: <?= $pesanan['metode_pembayaran'] ?> | Status: <?= $pesanan['status_pesanan'] ?></p>
         <table class="table">
             <tr>

@@ -6,14 +6,16 @@ include '../config/database.php';
 if (empty($_SESSION['cart'])) header("Location: keranjang.php");
 
 $uid = $_SESSION['user_id'];
-$user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT alamat FROM users WHERE id=$uid"));
+$user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT no_hp, alamat FROM users WHERE id=$uid"));
 $alamat_terdaftar = $user['alamat'] ?? '';
+$no_hp_terdaftar = $user['no_hp'] ?? '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $metode = $_POST['metode'];
     $alamat = mysqli_real_escape_string($conn, $_POST['alamat']);
+    $no_hp = mysqli_real_escape_string($conn, $_POST['no_hp']);
     $catatan = mysqli_real_escape_string($conn, $_POST['catatan']);
-    if (!empty($alamat)) mysqli_query($conn, "UPDATE users SET alamat='$alamat' WHERE id=$uid");
+    if (!empty($alamat) || !empty($no_hp)) mysqli_query($conn, "UPDATE users SET alamat='$alamat', no_hp='$no_hp' WHERE id=$uid");
 
     $total = 0;
     foreach ($_SESSION['cart'] as $item) $total += $item['harga'] * $item['qty'];
@@ -75,6 +77,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="checkout-right">
                 <h5>Detail Pengiriman</h5>
                 <form method="POST">
+                    <div class="mb-3">
+                        <label>No Handphone <span class="text-danger">*</span></label>
+                        <input type="text" name="no_hp" class="form-control" required placeholder="08xxxxxxxxxx" value="<?= htmlspecialchars($no_hp_terdaftar) ?>">
+                    </div>
                     <div class="mb-3">
                         <label>Alamat Lengkap <span class="text-danger">*</span></label>
                         <textarea name="alamat" class="form-control" rows="3" required placeholder="Jalan, RT/RW, Kelurahan, Kecamatan, Kota, Kode Pos"><?= htmlspecialchars($alamat_terdaftar) ?></textarea>
