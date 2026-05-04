@@ -5,44 +5,43 @@
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="350" y="40" width="100" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="3" value="Pelanggan datang
-ke Toko" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3" value="Pelanggan Datang" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="130" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="4" value="Memilih Barang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4" value="Memilih Barang" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="220" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="5" value="Membawa barang
-ke Kasir" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5" value="Membawa Barang
+ke Kasir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="310" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="6" value="Kasir menghitung
-total belanja" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6" value="Kasir Menghitung
+Total" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="400" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="7" value="Pilih metode
-pembayaran" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7" value="Metode
+Pembayaran?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="490" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="8" value="Bayar Lunas
-(Cash)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+(Cash)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="600" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="9" value="Hutang
-(Catat di Buku)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9" value="Catat di Buku
+Hutang" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="600" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="10" value="Kasir membuat
-Nota" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="10" value="Kasir Membuat
+Nota" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="700" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="11" value="Buku Hutang" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="700" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="12" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="12" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="350" y="820" width="100" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">
@@ -63,7 +62,7 @@ Nota" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
         <mxCell id="18" value="Tunai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7" target="8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="19" value="Ngutang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7" target="9">
+        <mxCell id="19" value="Hutang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7" target="9">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8" target="10">

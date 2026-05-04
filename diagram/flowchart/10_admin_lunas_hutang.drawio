@@ -5,29 +5,30 @@
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="350" y="40" width="100" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="3" value="Menu Lunas Hutang" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="3" value="Tampil Halaman
+Lunas Hutang" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="130" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="4" value="Cek Bukti" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4" value="Lihat Bukti" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="220" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="5" value="Validasi?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5" value="Validasi Bukti?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="310" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="6" value="Terima" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6" value="Klik Terima" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="430" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="7" value="Tolak" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7" value="Klik Tolak" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="430" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="8" value="Ubah Status:
-Lunas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8" value="Update DB
+(Lunas)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="200" y="520" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="9" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="350" y="620" width="100" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">

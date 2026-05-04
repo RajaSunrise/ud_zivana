@@ -5,29 +5,29 @@
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="350" y="40" width="100" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="3" value="Halaman
+        <mxCell id="3" value="Tampil Form
 Registrasi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="130" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="4" value="Input Data
-(Nama, Email, dll)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+Registrasi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="220" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="5" value="Validasi Data" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5" value="Validasi Data?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="310" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="6" value="Simpan ke
-Database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="340" y="430" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="7" value="Tampilkan Pesan
-Sukses/Error" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="7" value="Tampil Pesan
+Sukses" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="520" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="8" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="350" y="620" width="100" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">

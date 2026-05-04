@@ -5,53 +5,51 @@
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="350" y="40" width="100" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="3" value="Lihat Produk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3" value="Tampil Data
+Produk" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="130" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="4" value="Pilih Produk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4" value="Klik Tambah
+ke Keranjang" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="220" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="5" value="Tambah ke
-Keranjang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="310" width="120" height="60" as="geometry"/>
+        <mxCell id="5" value="Cek Ketersediaan
+Stok" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="6" value="Cek Stok" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="400" width="120" height="80" as="geometry"/>
+        <mxCell id="6" value="Simpan Data
+Keranjang ke DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="7" value="Update Keranjang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="520" width="120" height="60" as="geometry"/>
+        <mxCell id="7" value="Tampil Pesan
+Stok Habis" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="8" value="Pesan Stok Habis" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="410" width="120" height="60" as="geometry"/>
+        <mxCell id="8" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="100" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="9" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="620" width="100" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4" target="5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="12" value="Tersedia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="14" value="Cukup" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="7">
+        <mxCell id="13" value="Tidak Tersedia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="7">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="15" value="Tidak Cukup" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="8">
+        <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7" target="3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="8" target="3">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7" target="9">
+        <mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
