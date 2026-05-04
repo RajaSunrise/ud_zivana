@@ -19,7 +19,7 @@ if (isset($_GET['tolak_bukti'])) {
     mysqli_query($conn, "UPDATE pesanan SET bukti_transfer=NULL WHERE id=$id");
     echo "<script>alert('Bukti ditolak'); window.location='pesanan.php';</script>";
 }
-$pesanan = mysqli_query($conn, "SELECT p.*, u.nama FROM pesanan p JOIN users u ON p.user_id=u.id ORDER BY p.tanggal_pesan DESC");
+$pesanan = mysqli_query($conn, "SELECT p.*, u.nama, u.no_hp, u.alamat FROM pesanan p JOIN users u ON p.user_id=u.id ORDER BY p.tanggal_pesan DESC");
 ?>
 <!DOCTYPE html>
 <html>
@@ -54,7 +54,11 @@ $pesanan = mysqli_query($conn, "SELECT p.*, u.nama FROM pesanan p JOIN users u O
                     <?php while ($row = mysqli_fetch_assoc($pesanan)): ?>
                         <tr>
                             <td><?= $row['id'] ?></td>
-                            <td><?= $row['nama'] ?></td>
+                            <td>
+                                <strong><?= $row['nama'] ?></strong><br>
+                                <small><?= $row['no_hp'] ?></small><br>
+                                <small class="text-muted"><?= nl2br(htmlspecialchars($row['alamat'])) ?></small>
+                            </td>
                             <td>Rp <?= number_format($row['total_harga'], 0, ',', '.') ?></td>
                             <td><?= $row['metode_pembayaran'] ?></td>
                             <td><span class="status-badge status-<?= $row['status_pembayaran'] == 'lunas' ? 'selesai' : ($row['status_pembayaran'] == 'hutang' ? 'diproses' : 'pending') ?>"><?= ucfirst($row['status_pembayaran']) ?></span></td>
