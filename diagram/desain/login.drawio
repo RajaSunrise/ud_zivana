@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile version="21.2.8">
+	<diagram id="login_page" name="Login Page">
+		<mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+			<root>
+				<mxCell id="0" />
+				<mxCell id="1" parent="0" />
+				<mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f9fa;" vertex="1" parent="1">
+					<mxGeometry x="40" y="40" width="1000" height="600" as="geometry" />
+				</mxCell>
+				<mxCell id="card_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;shadow=1;" vertex="1" parent="1">
+					<mxGeometry x="300" y="150" width="450" height="300" as="geometry" />
+				</mxCell>
+				<mxCell id="card_header" value="Login UD Zivana" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0d6efd;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="300" y="150" width="450" height="40" as="geometry" />
+				</mxCell>
+				<mxCell id="lbl_email" value="Email" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+					<mxGeometry x="330" y="210" width="100" height="20" as="geometry" />
+				</mxCell>
+				<mxCell id="inp_email" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+					<mxGeometry x="330" y="230" width="390" height="30" as="geometry" />
+				</mxCell>
+				<mxCell id="lbl_pass" value="Password" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+					<mxGeometry x="330" y="270" width="100" height="20" as="geometry" />
+				</mxCell>
+				<mxCell id="inp_pass" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+					<mxGeometry x="330" y="290" width="390" height="30" as="geometry" />
+				</mxCell>
+				<mxCell id="btn_login" value="Login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0d6efd;fontColor=#ffffff;" vertex="1" parent="1">
+					<mxGeometry x="330" y="340" width="390" height="40" as="geometry" />
+				</mxCell>
+				<mxCell id="lbl_register" value="Belum punya akun? Daftar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
+					<mxGeometry x="330" y="400" width="390" height="20" as="geometry" />
+				</mxCell>
+			</root>
+		</mxGraphModel>
+	</diagram>
+</mxfile>
