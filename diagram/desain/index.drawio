@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile version="21.2.8">
+	<diagram id="Halaman_Utama_(Index)" name="Halaman Utama (Index)">
+		<mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+			<root>
+				<mxCell id="0" />
+				<mxCell id="1" parent="0" />
+				<mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=none;" vertex="1" parent="1">
+					<mxGeometry width="1169" height="827" as="geometry" />
+				</mxCell>				<mxCell id="navbar_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ee4d2d;shadow=1;strokeColor=none;" vertex="1" parent="1">
+					<mxGeometry x="0" y="0" width="1169" height="60" as="geometry" />
+				</mxCell>				<mxCell id="brand" value="UD Zivana" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+					<mxGeometry x="100" y="10" width="200" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_login" value="Login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
+					<mxGeometry x="850" y="10" width="80" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_register" value="Daftar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
+					<mxGeometry x="930" y="10" width="80" height="40" as="geometry" />
+				</mxCell>				<mxCell id="title_produk" value="🌟 Produk Unggulan" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#ee4d2d;" vertex="1" parent="1">
+					<mxGeometry x="100" y="90" width="300" height="40" as="geometry" />
+				</mxCell>				<mxCell id="prod_card_0" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;" vertex="1" parent="1">
+					<mxGeometry x="100" y="150" width="220" height="350" as="geometry" />
+				</mxCell>				<mxCell id="prod_img_0" value="Gambar Ayam" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e9ecef;strokeColor=#dee2e6;align=center;verticalAlign=middle;" vertex="1" parent="1">
+					<mxGeometry x="100" y="150" width="220" height="150" as="geometry" />
+				</mxCell>				<mxCell id="prod_title_0" value="Nama Produk Ayam" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="110" y="310" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_price_0" value="Rp 35.000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#ee4d2d;" vertex="1" parent="1">
+					<mxGeometry x="110" y="340" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_stock_0" value="Stok: 50 kg" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontColor=#6c757d;" vertex="1" parent="1">
+					<mxGeometry x="110" y="370" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_btn_0" value="Login dulu" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ee4d2d;fontColor=#ffffff;strokeColor=none;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="110" y="420" width="200" height="35" as="geometry" />
+				</mxCell>				<mxCell id="prod_card_1" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;" vertex="1" parent="1">
+					<mxGeometry x="340" y="150" width="220" height="350" as="geometry" />
+				</mxCell>				<mxCell id="prod_img_1" value="Gambar Ayam" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e9ecef;strokeColor=#dee2e6;align=center;verticalAlign=middle;" vertex="1" parent="1">
+					<mxGeometry x="340" y="150" width="220" height="150" as="geometry" />
+				</mxCell>				<mxCell id="prod_title_1" value="Nama Produk Ayam" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="350" y="310" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_price_1" value="Rp 35.000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#ee4d2d;" vertex="1" parent="1">
+					<mxGeometry x="350" y="340" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_stock_1" value="Stok: 50 kg" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontColor=#6c757d;" vertex="1" parent="1">
+					<mxGeometry x="350" y="370" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_btn_1" value="Login dulu" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ee4d2d;fontColor=#ffffff;strokeColor=none;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="350" y="420" width="200" height="35" as="geometry" />
+				</mxCell>				<mxCell id="prod_card_2" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;" vertex="1" parent="1">
+					<mxGeometry x="580" y="150" width="220" height="350" as="geometry" />
+				</mxCell>				<mxCell id="prod_img_2" value="Gambar Ayam" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e9ecef;strokeColor=#dee2e6;align=center;verticalAlign=middle;" vertex="1" parent="1">
+					<mxGeometry x="580" y="150" width="220" height="150" as="geometry" />
+				</mxCell>				<mxCell id="prod_title_2" value="Nama Produk Ayam" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="590" y="310" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_price_2" value="Rp 35.000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#ee4d2d;" vertex="1" parent="1">
+					<mxGeometry x="590" y="340" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_stock_2" value="Stok: 50 kg" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontColor=#6c757d;" vertex="1" parent="1">
+					<mxGeometry x="590" y="370" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_btn_2" value="Login dulu" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ee4d2d;fontColor=#ffffff;strokeColor=none;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="590" y="420" width="200" height="35" as="geometry" />
+				</mxCell>				<mxCell id="prod_card_3" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;" vertex="1" parent="1">
+					<mxGeometry x="820" y="150" width="220" height="350" as="geometry" />
+				</mxCell>				<mxCell id="prod_img_3" value="Gambar Ayam" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e9ecef;strokeColor=#dee2e6;align=center;verticalAlign=middle;" vertex="1" parent="1">
+					<mxGeometry x="820" y="150" width="220" height="150" as="geometry" />
+				</mxCell>				<mxCell id="prod_title_3" value="Nama Produk Ayam" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="830" y="310" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_price_3" value="Rp 35.000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#ee4d2d;" vertex="1" parent="1">
+					<mxGeometry x="830" y="340" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_stock_3" value="Stok: 50 kg" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontColor=#6c757d;" vertex="1" parent="1">
+					<mxGeometry x="830" y="370" width="200" height="30" as="geometry" />
+				</mxCell>				<mxCell id="prod_btn_3" value="Login dulu" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ee4d2d;fontColor=#ffffff;strokeColor=none;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="830" y="420" width="200" height="35" as="geometry" />
+				</mxCell>				<mxCell id="hero_bg" value="Ayam Potong Segar UD Zivana&#xa;&#xa;Frozen & Fresh • Halal • Harga Terjangkau • Siap Kirim&#xa;&#xa;[Belanja Sekarang]" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#0d6efd;fontColor=#ffffff;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+					<mxGeometry x="100" y="550" width="940" height="150" as="geometry" />
+				</mxCell>				<mxCell id="footer_bg" value="© 2025 UD Zivana - Ayam Potong Segar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;align=center;verticalAlign=middle;fontColor=#6c757d;" vertex="1" parent="1">
+					<mxGeometry x="0" y="750" width="1169" height="60" as="geometry" />
+				</mxCell>			</root>
+		</mxGraphModel>
+	</diagram>
+</mxfile>

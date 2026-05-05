@@ -1,44 +1,37 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mxfile version="21.2.8">
-	<diagram id="cust_Keranjang" name="Customer Keranjang">
+	<diagram id="Keranjang" name="Keranjang">
 		<mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
 			<root>
 				<mxCell id="0" />
 				<mxCell id="1" parent="0" />
-				<mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f9fa;" vertex="1" parent="1">
-					<mxGeometry x="40" y="40" width="1000" height="600" as="geometry" />
-				</mxCell>
-				<mxCell id="navbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;shadow=1;" vertex="1" parent="1">
-					<mxGeometry x="40" y="40" width="1000" height="50" as="geometry" />
-				</mxCell>
-				<mxCell id="brand" value="UD.ZIVANA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-					<mxGeometry x="60" y="40" width="200" height="50" as="geometry" />
-				</mxCell>
-				<mxCell id="nav_0" value="Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
-					<mxGeometry x="300" y="40" width="100" height="50" as="geometry" />
-				</mxCell>
-				<mxCell id="nav_1" value="Keranjang" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
-					<mxGeometry x="400" y="40" width="100" height="50" as="geometry" />
-				</mxCell>
-				<mxCell id="nav_2" value="Pesanan Saya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
-					<mxGeometry x="500" y="40" width="100" height="50" as="geometry" />
-				</mxCell>
-				<mxCell id="nav_3" value="Hutang Saya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
-					<mxGeometry x="600" y="40" width="100" height="50" as="geometry" />
-				</mxCell>
-				<mxCell id="nav_4" value="Profil" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
-					<mxGeometry x="700" y="40" width="100" height="50" as="geometry" />
-				</mxCell>
-				<mxCell id="nav_5" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
-					<mxGeometry x="800" y="40" width="100" height="50" as="geometry" />
-				</mxCell>
-				<mxCell id="title" value="Keranjang" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;" vertex="1" parent="1">
-					<mxGeometry x="60" y="110" width="300" height="30" as="geometry" />
-				</mxCell>
-				<mxCell id="content_area" value="Area Konten Keranjang" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-					<mxGeometry x="60" y="160" width="960" height="400" as="geometry" />
-				</mxCell>
-			</root>
+				<mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=none;" vertex="1" parent="1">
+					<mxGeometry width="1169" height="827" as="geometry" />
+				</mxCell>				<mxCell id="navbar_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;shadow=1;strokeColor=none;" vertex="1" parent="1">
+					<mxGeometry x="0" y="0" width="1169" height="60" as="geometry" />
+				</mxCell>				<mxCell id="brand" value="UD Zivana" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=18;fontColor=#0d6efd;" vertex="1" parent="1">
+					<mxGeometry x="100" y="10" width="200" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_0" value="Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+					<mxGeometry x="350" y="10" width="100" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_1" value="Belanja" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+					<mxGeometry x="455" y="10" width="100" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_2" value="Keranjang" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+					<mxGeometry x="560" y="10" width="100" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_3" value="Pesanan Saya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+					<mxGeometry x="665" y="10" width="110" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_4" value="Hutang" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+					<mxGeometry x="780" y="10" width="100" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_5" value="Profil" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+					<mxGeometry x="885" y="10" width="100" height="40" as="geometry" />
+				</mxCell>				<mxCell id="nav_6" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+					<mxGeometry x="990" y="10" width="100" height="40" as="geometry" />
+				</mxCell>				<mxCell id="title" value="Keranjang Belanja" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+					<mxGeometry x="100" y="90" width="300" height="40" as="geometry" />
+				</mxCell>				<mxCell id="table" value="Item Keranjang&#xa;(Produk, Harga, Jumlah, Subtotal, Hapus)" style="rounded=1;arcSize=2;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;align=center;verticalAlign=top;spacingTop=20;fontSize=16;" vertex="1" parent="1">
+					<mxGeometry x="100" y="150" width="600" height="300" as="geometry" />
+				</mxCell>				<mxCell id="summary" value="Ringkasan Belanja&#xa;&#xa;Total: Rp XXX.XXX&#xa;&#xa;[Checkout]" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+					<mxGeometry x="750" y="150" width="310" height="200" as="geometry" />
+				</mxCell>			</root>
 		</mxGraphModel>
 	</diagram>
 </mxfile>

@@ -92,7 +92,7 @@
         <!-- <<include>> relationships -->
         <mxCell id="inc_kat_login" edge="1" parent="1" source="uc_kelola_kategori" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_kat_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_kat_login_label" parent="inc_kat_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -100,7 +100,7 @@
         </mxCell>
         <mxCell id="inc_prod_login" edge="1" parent="1" source="uc_kelola_produk" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_prod_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_prod_login_label" parent="inc_prod_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -108,7 +108,7 @@
         </mxCell>
         <mxCell id="inc_pel_login" edge="1" parent="1" source="uc_kelola_pelanggan" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_pel_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_pel_login_label" parent="inc_pel_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -116,7 +116,7 @@
         </mxCell>
         <mxCell id="inc_pes_login" edge="1" parent="1" source="uc_kelola_pesanan" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_pes_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_pes_login_label" parent="inc_pes_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -124,7 +124,7 @@
         </mxCell>
         <mxCell id="inc_bank_login" edge="1" parent="1" source="uc_kelola_bank" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_bank_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_bank_login_label" parent="inc_bank_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -132,7 +132,7 @@
         </mxCell>
         <mxCell id="inc_lap_login" edge="1" parent="1" source="uc_lihat_laporan" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_lap_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_lap_login_label" parent="inc_lap_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -140,7 +140,7 @@
         </mxCell>
         <mxCell id="inc_peng_login" edge="1" parent="1" source="uc_kelola_pengguna" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_peng_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_peng_login_label" parent="inc_peng_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -148,7 +148,7 @@
         </mxCell>
         <mxCell id="inc_mpes_login" edge="1" parent="1" source="uc_melakukan_pesanan" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_mpes_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_mpes_login_label" parent="inc_mpes_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -156,7 +156,7 @@
         </mxCell>
         <mxCell id="inc_prof_login" edge="1" parent="1" source="uc_merubah_profil" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_prof_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_prof_login_label" parent="inc_prof_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
@@ -164,7 +164,7 @@
         </mxCell>
         <mxCell id="inc_notif_login" edge="1" parent="1" source="uc_menerima_notifikasi" target="uc_login" style="dashed=1;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
-          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="inc_notif_login">
+          <mxCell value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" id="inc_notif_login_label" parent="inc_notif_login">
             <mxGeometry x="0" y="0" relative="1" as="geometry">
               <mxPoint as="offset" />
             </mxGeometry>
